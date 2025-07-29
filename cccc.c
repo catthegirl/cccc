@@ -24,5 +24,5 @@ double Per_Midle_C_To_Secs(double Per_Middle_Cs){
     return Per_Middle_Cs*MIDDLE_C;
 }
 double Cal_Per_C_Squared_To_Kg(double Cal_Per_C_Squared){
-    return Cal_Per_C_Squared*((LIGHTSPEED*LIGHTSPEED)/CAL)
+    return Cal_Per_C_Squared*((LIGHTSPEED*LIGHTSPEED)/CAL);
 }
