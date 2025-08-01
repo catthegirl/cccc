@@ -17,10 +17,10 @@ double Sec_To_Per_Middle_C(double seconds){
 double Kg_To_Cal_Per_C_Squared(double killograms){
     return killograms*(CAL/(LIGHTSPEED*LIGHTSPEED));
 }
-double C_Per_Middle_C_To_Meters(double C_Per_Middle_Cs){
+double C_Per_Middle_C_To_Meter(double C_Per_Middle_Cs){
     return C_Per_Middle_Cs*(MIDDLE_C/LIGHTSPEED);
 }
-double Per_Midle_C_To_Secs(double Per_Middle_Cs){
+double Per_Midle_C_To_Sec(double Per_Middle_Cs){
     return Per_Middle_Cs*MIDDLE_C;
 }
 double Cal_Per_C_Squared_To_Kg(double Cal_Per_C_Squared){
