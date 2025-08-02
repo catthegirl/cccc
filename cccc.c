@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <float.h>
 
+#include "cccc.h"
+
 #define LIGHTSPEED 299792458.0
 #define MIDDLE_C 261.6256
 #define CAL 4184.0
